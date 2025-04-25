@@ -58,8 +58,7 @@ To use the ChillMind models, follow these steps:
     pip install -r requirements.txt
     ```
 
-3. Load and use the models in your Python script:
-4. Open Jupyter Notebook or Python script and import the models
+3. Open Jupyter Notebook or Python script file to run the models.
     <!-- ```python
     from chillmind_models import MentalHealthModel, EmotionModel
 
