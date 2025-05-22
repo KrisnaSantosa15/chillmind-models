@@ -11,9 +11,9 @@ app = FastAPI(title="Emotion Classification API")
 # Load model and tokenizer
 print("Loading model and tokenizer...")
 try:
-    model = tf.keras.models.load_model('keras\emotion_model.keras')
+    model = tf.keras.models.load_model('/code/app/emotion_model.h5')
     
-    with open('emotion_tokenizer.pickle', 'rb') as handle:
+    with open('/code/app/emotion_tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
     
     print("Model and tokenizer loaded successfully!")
